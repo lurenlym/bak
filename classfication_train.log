@@ -27,12 +27,13 @@
 2018.01.14 18:00
      caffe fine-tuning时需要对最后一层更改名字，再改分类数。
 	 alexnet fine-tuning 准确率在0.97左右
-	 (明日工作：测试mynet改进,sketch-net,分类测试运行,图片显示结果多条合并)
+	 (明日工作：测试mynet改进,sketch-a-net,分类测试运行,图片显示结果多条合并)
 
 2018.01.15 9:50
   lenet原始网络+relu和dropout 接近0.90
-  mylenet 四层网络32-64-128-256-1024-128-7 后两层不跟norm 准确率0.95 
+  mylenet 四层网络32-64-128-256-1024-128-7 后两层不跟norm 准确率0.96
  			 		  后两层不跟pool和norm 训练缓慢 0.93
   alex-net自己重新训练数据，loss无法收敛
   alex-fine-tuning效果较好，0.975左右
+  sketch-a-net 和alex，模型基本一样，仅仅是一些feature数目不一样以及不使用局部响应归一化，自己重新训练模型，0.95左右
 
