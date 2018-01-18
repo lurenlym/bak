@@ -37,3 +37,73 @@
   alex-fine-tuning效果较好，0.975左右
   sketch-a-net 和alex，模型基本一样，仅仅是一些feature数目不一样以及不使用局部响应归一化，自己重新训练模型，0.95左右
 
+2018.01.18 15:00
+  使用python接口进行测试，7种类型分别测试 BQ-1 JGBTH-0.93 JGTH-0.99 NORMAL-1 YWB-0.97 ZC-0.97 ZD-0.90
+  训练集错误： 
+JGTH
+('True:JGTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_train/JGTH/02-57-58-660-45-camra1_f.bmp')
+('True:JGTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_train/JGTH/02-57-58-660-45-camra1 (1)_f.bmp')
+total:1562 error:2 acc:0.998720
+  翻转数据的时候发现将JGTBH的复制到JGTH的文件夹下！！！！需要对所有模型重新训练
+  重新训练后 测试准确率alex-fine 0.96
+  各类
+  BQ:1
+  ZD:1
+  ZC:0.9764 ('True:ZC Predict:ZD', '/home/lzhpc/CODE/ProfileNet/data2/image_val/ZC/01-27-06-020-2-camra1.bmp')
+  YWB:0.9607
+  ('True:YWB Predict:NORMAL', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/01-23-36-140-76-camra1 (2).bmp')
+  ('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/02-34-32-340-14-camra2 (3).bmp')
+  ('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/01-23-34-700-4-camra2 (2).bmp')
+  ('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/02-36-45-020-23-camra2 (2).bmp')
+  ('True:YWB Predict:NORMAL', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/01-23-36-140-76-camra1 (1).bmp')
+  ('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/02-36-45-020-23-camra2.bmp')
+  ('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/02-36-45-020-23-camra2 (1).bmp')
+  ('True:YWB Predict:NORMAL', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/01-23-36-140-76-camra1 (3).bmp')
+  ('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/01-23-34-700-4-camra2 (1).bmp')
+('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/02-34-32-340-14-camra2 (1).bmp')
+('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/02-34-32-340-14-camra2.bmp')
+('True:YWB Predict:NORMAL', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/01-23-36-140-76-camra1.bmp')
+('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/02-36-45-020-23-camra2 (3).bmp')
+('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/01-23-34-700-4-camra2.bmp')
+('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/02-34-32-340-14-camra2 (2).bmp')
+('True:YWB Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/YWB/01-23-34-700-4-camra2 (3).bmp')
+total:408 error:16 acc:0.960784
+
+  NORMAL:0.9852
+  ('True:NORMAL Predict:ZD', '/home/lzhpc/CODE/ProfileNet/data2/image_val/NORMAL/01-13-52-340-72-camra1 (1).bmp')
+('True:NORMAL Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/NORMAL/01-13-51-300-20-camra2 (1).bmp')
+('True:NORMAL Predict:ZD', '/home/lzhpc/CODE/ProfileNet/data2/image_val/NORMAL/01-13-52-280-69-camra1.bmp')
+('True:NORMAL Predict:ZC', '/home/lzhpc/CODE/ProfileNet/data2/image_val/NORMAL/01-13-51-300-20-camra2.bmp')
+('True:NORMAL Predict:ZD', '/home/lzhpc/CODE/ProfileNet/data2/image_val/NORMAL/01-13-52-280-69-camra1 (1).bmp')
+('True:NORMAL Predict:ZD', '/home/lzhpc/CODE/ProfileNet/data2/image_val/NORMAL/01-13-52-340-72-camra1.bmp')
+
+ JGTH 0.9901
+('True:JGTH Predict:JGBTH', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGTH/02-36-46-800-112-camra2.bmp')
+('True:JGTH Predict:JGBTH', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGTH/02-36-46-800-112-camra2 (3).bmp')
+('True:JGTH Predict:JGBTH', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGTH/02-36-46-800-112-camra2 (1).bmp')
+('True:JGTH Predict:JGBTH', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGTH/02-36-46-800-112-camra2 (2).bmp')
+total:408 error:4 acc:0.990196
+
+JGTH  
+('True:JGBTH Predict:YWB', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-23-36-360-87-camra1.bmp')
+('True:JGBTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-19-44-980-28-camra1 (1).bmp')
+('True:JGBTH Predict:YWB', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-23-36-360-87-camra1 (1).bmp')
+('True:JGBTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-19-44-980-28-camra1.bmp')
+('True:JGBTH Predict:NORMAL', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-27-09-380-11-camra2 (1).bmp')
+('True:JGBTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/02-34-32-580-26-camra1.bmp')
+('True:JGBTH Predict:YWB', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/02-34-32-860-40-camra1.bmp')
+('True:JGBTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/02-34-32-580-26-camra1 (1).bmp')
+('True:JGBTH Predict:NORMAL', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-27-09-380-11-camra2.bmp')
+('True:JGBTH Predict:JGTH', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-13-52-820-96-camra2.bmp')
+('True:JGBTH Predict:JGTH', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-13-52-820-96-camra2 (1).bmp')
+('True:JGBTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-23-36-620-100-camra1 (1).bmp')
+('True:JGBTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-23-36-620-100-camra1.bmp')
+('True:JGBTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-19-44-960-27-camra1 (1).bmp')
+('True:JGBTH Predict:YWB', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/02-34-32-860-40-camra1 (1).bmp')
+('True:JGBTH Predict:BQ', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-19-44-960-27-camra1.bmp')
+('True:JGBTH Predict:JGTH', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/02-34-32-660-30-camra2 (1).bmp')
+('True:JGBTH Predict:YWB', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-13-52-620-86-camra1 (1).bmp')
+('True:JGBTH Predict:YWB', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/01-13-52-620-86-camra1.bmp')
+('True:JGBTH Predict:JGTH', '/home/lzhpc/CODE/ProfileNet/data2/image_val/JGBTH/02-34-32-660-30-camra2.bmp')
+total:408 error:20 acc:0.950980
+
