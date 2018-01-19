@@ -1,0 +1,24 @@
+time:2018-01-19 10:49:21  caffe_model:/home/lzhpc/CODE/ProfileNet/mymodel/20180118alex_net.caffemodel
+
+BQ current_sum:1808 current_error_number:0 current_acc:1.000000
+
+JGTH current_sum:1416 current_error_number:0 current_acc:1.000000
+
+ZD current_sum:1440 current_error_number:0 current_acc:1.000000
+
+YWB current_sum:1288 current_error_number:0 current_acc:1.000000
+
+NORMAL current_sum:1228 current_error_number:0 current_acc:1.000000
+
+True:JGBTH Predict:BQ /home/lzhpc/CODE/ProfileNet/data2/image_train/JGBTH/02-57-58-660-45-camra1 (1).bmp
+True:JGBTH Predict:BQ /home/lzhpc/CODE/ProfileNet/data2/image_train/JGBTH/02-57-58-660-45-camra1_f.bmp
+True:JGBTH Predict:BQ /home/lzhpc/CODE/ProfileNet/data2/image_train/JGBTH/02-57-58-660-45-camra1 (1)_f.bmp
+True:JGBTH Predict:BQ /home/lzhpc/CODE/ProfileNet/data2/image_train/JGBTH/02-57-58-660-45-camra1.bmp
+JGBTH current_sum:1708 current_error_number:4 current_acc:0.997658
+
+ZC current_sum:1512 current_error_number:0 current_acc:1.000000
+
+
+
+total_number:10400 error_number:4 acc:0.999615
+

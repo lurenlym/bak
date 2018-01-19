@@ -1,0 +1,78 @@
+time:2018-01-19 16:01:17  caffe_model:/home/lzhpc/CODE/ProfileNet/model/temp_iter_500.caffemodel
+
+BQ current_sum:416 current_error_number:0 current_acc:1.000000
+
+JGTH current_sum:406 current_error_number:0 current_acc:1.000000
+
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (15).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (16).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (8).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (1).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (31).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (14).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (2).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (30).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (20).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (4).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (12).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (6).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (13).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (18).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (17).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (3).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (21).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (5).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2.bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (24).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (25).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (9).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (27).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (28).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (26).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (22).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (11).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (23).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (29).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (7).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (19).bmp
+True:ZD Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/ZD/01-13-50-960-3-camra2 (10).bmp
+ZD current_sum:340 current_error_number:32 current_acc:0.905882
+
+True:YWB Predict:JGBTH /home/lzhpc/CODE/ProfileNet/data3/image_val/YWB/01-23-34-700-4-camra2 (2).bmp
+True:YWB Predict:JGBTH /home/lzhpc/CODE/ProfileNet/data3/image_val/YWB/01-23-34-700-4-camra2 (1).bmp
+True:YWB Predict:JGBTH /home/lzhpc/CODE/ProfileNet/data3/image_val/YWB/01-23-34-700-4-camra2.bmp
+True:YWB Predict:JGBTH /home/lzhpc/CODE/ProfileNet/data3/image_val/YWB/01-23-34-700-4-camra2 (3).bmp
+YWB current_sum:410 current_error_number:4 current_acc:0.990244
+
+True:NORMAL Predict:ZD /home/lzhpc/CODE/ProfileNet/data3/image_val/NORMAL/01-13-52-340-72-camra1 (1).bmp
+True:NORMAL Predict:BQ /home/lzhpc/CODE/ProfileNet/data3/image_val/NORMAL/01-13-52-580-84-camra1.bmp
+True:NORMAL Predict:BQ /home/lzhpc/CODE/ProfileNet/data3/image_val/NORMAL/01-13-52-580-84-camra1 (1).bmp
+True:NORMAL Predict:BQ /home/lzhpc/CODE/ProfileNet/data3/image_val/NORMAL/01-13-52-540-82-camra1.bmp
+True:NORMAL Predict:ZD /home/lzhpc/CODE/ProfileNet/data3/image_val/NORMAL/01-13-52-340-72-camra1.bmp
+True:NORMAL Predict:BQ /home/lzhpc/CODE/ProfileNet/data3/image_val/NORMAL/01-13-52-540-82-camra1 (1).bmp
+NORMAL current_sum:406 current_error_number:6 current_acc:0.985222
+
+True:JGBTH Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/JGBTH/01-23-36-360-87-camra1.bmp
+True:JGBTH Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/JGBTH/01-23-36-360-87-camra1 (1).bmp
+True:JGBTH Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/JGBTH/01-27-09-380-11-camra2 (1).bmp
+True:JGBTH Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/JGBTH/02-34-32-860-40-camra1.bmp
+True:JGBTH Predict:NORMAL /home/lzhpc/CODE/ProfileNet/data3/image_val/JGBTH/01-27-09-380-11-camra2.bmp
+True:JGBTH Predict:JGTH /home/lzhpc/CODE/ProfileNet/data3/image_val/JGBTH/01-13-52-820-96-camra2.bmp
+True:JGBTH Predict:JGTH /home/lzhpc/CODE/ProfileNet/data3/image_val/JGBTH/01-13-52-820-96-camra2 (1).bmp
+True:JGBTH Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/JGBTH/02-34-32-860-40-camra1 (1).bmp
+JGBTH current_sum:398 current_error_number:8 current_acc:0.979899
+
+True:ZC Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/ZC/01-23-35-020-20-camra2 (2).bmp
+True:ZC Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/ZC/01-23-35-020-20-camra2 (1).bmp
+True:ZC Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/ZC/01-23-35-020-20-camra2 (5).bmp
+True:ZC Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/ZC/01-23-35-020-20-camra2 (3).bmp
+True:ZC Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/ZC/01-23-35-020-20-camra2 (7).bmp
+True:ZC Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/ZC/01-23-35-020-20-camra2.bmp
+True:ZC Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/ZC/01-23-35-020-20-camra2 (6).bmp
+True:ZC Predict:YWB /home/lzhpc/CODE/ProfileNet/data3/image_val/ZC/01-23-35-020-20-camra2 (4).bmp
+ZC current_sum:340 current_error_number:8 current_acc:0.976471
+
+
+
+total_number:2716 error_number:58 acc:0.978645
+
